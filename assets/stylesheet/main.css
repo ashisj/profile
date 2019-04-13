@@ -1,0 +1,70 @@
+header{
+    background: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    position: relative;
+}
+.profile{
+    background-image: url('../img/profile.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 7px;
+}
+.header-content{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    color: #ffffff;
+}
+.header-content .name{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+}
+hr{
+    width: 50px;
+    border-width: 2px;
+}
+.header-content hr{
+    border-color: #db3f3f;
+}
+
+section{
+    padding: 100px;
+    text-align: center;
+}
+.section-heading{
+    font-size: 24px;
+    font-weight: 400;
+}
+section:nth-child(odd){
+    background: #db3f3f;
+    color: #ffffff;
+}
+section:nth-child(even) hr{
+    border-color: #db3f3f;
+}
+#about .collapsible{
+    margin:0 10%;
+}
+.collapsible-header{
+    display:block;
+}
+#carrer ,#experience ,#hobbies{
+    padding: 10px 0;
+}
+#carrer > div ,#experience > div ,#hobbies >ul{
+    display: inline-block;
+    width: 80%;
+    background-color: white;
+} 
+#skills i{
+    color: #db3f3f;
+    font-size: 50px;
+    margin: 20px;
+}
