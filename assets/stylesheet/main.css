@@ -61,10 +61,16 @@ section:nth-child(even) hr{
 #carrer > div ,#experience > div ,#hobbies >ul{
     display: inline-block;
     width: 80%;
-    background-color: white;
+    background-color: #ffffff;
 } 
 #skills i{
     color: #db3f3f;
     font-size: 50px;
     margin: 20px;
+}
+#skills .card{
+    min-height:226px;
+}
+#contact a{
+    color: #ffffff;
 }
