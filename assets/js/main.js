@@ -10,8 +10,9 @@ $(document).ready(function(){
         
         var data = new google.visualization.arrayToDataTable([
                 ['id','Company','start','end'],
-                ['1','Infosys LTD',new Date(2017,11,18),new Date(2018,08,14)],
-                ['2','Mindfire Solurtions',new Date(2018,08,17),Date.now()],
+                ['1','Infosys LTD',new Date(2017,11,18),new Date(2018,09,14)],
+                ['2','Mindfire Solurtions',new Date(2018,09,17),new Date(2019,08,31)],
+				['3','iPROMOTEu',new Date(2019,09,23),Date.now()],
             ]);
         var options = {
             timeline: { showRowLabels: false },
