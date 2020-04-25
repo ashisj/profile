@@ -17,46 +17,55 @@
     <!-- navbar -->
     <header>
         <div class="navbar-fixed">
-            <nav class="nav-wrapper transparent">
-            <!-- <div class="container"> -->
-                <a href="#" class="brand-logo hide-on-med-and-down">
-                    <div class="profile"></div>
-                </a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="https://www.linkedin.com/in/ashis-jena/" target="_blank" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Linked IN">
-                        <i class="fab fa-linkedin"></i>
-                    </a></li>
-                    <li><a href="https://github.com/ashisj" target="_blank" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Github">
-                        <i class="fab fa-github"></i>
-                    </a></li>
-                    <li><a href="https://twitter.com/ashiskumarjena" target="_blank" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a></li>
-                    <li><a href="https://www.facebook.com/ashiskumar.jena1" target="_blank" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
-                        <i class="fab fa-facebook"></i>
-                    </a></li>
-					<!-- -->
-					<li> <a target="_blank" href="./assets/pdf/resume.pdf" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Resume"> 
-						<i class="fa fa-file"></i>
-					</a></li>
-					<!-- -->
-                </ul>
-                <ul class="sidenav grey lighten-2" id="mobile-menu">
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#projects">PROJECTS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            <!-- </div> -->
+            <nav>
+                <div class="nav-wrapper transparent">
+                <!-- <div class="container"> -->
+                    <a href="#" class="brand-logo hide-on-med-and-down">
+                        <div class="profile"></div>
+                    </a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ashis-jena/" target="_blank" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Linked IN">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ashisj" target="_blank" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ashiskumarjena" target="_blank" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ashiskumar.jena1" target="_blank" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li> 
+                            <a target="_blank" href="./assets/pdf/resume.pdf" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Resume"> 
+                                <i class="fa fa-file"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
         <div class="header-content">
             <div class="name">ASHIS KUMAR JENA</div>
             <hr>
@@ -234,11 +243,46 @@
         <hr>
         <div class="row">
             <div class="col s12 l4 push-l7 offset-l1">
+                <img src="./assets/img/mobile-zone.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l5 right-align offset-l1">
+                <h4 class="indigo-text text-darken-4">
+                    <a href="https://e-mobile.herokuapp.com/" target="_blank" class="indigo-text text-darken-4">Mobile Zone</a>
+                </h4>
+                <p>
+                    This project is developed by using React, Redux, HTML5, CSS3, BootStrap4 in client side, Node.JS as server side langauage and MongoDB as database.
+                    Apart from that i used oauth for facebook and google login, It also supports local login.
+                    I Added Razorpay for payment Gateway. After successfull transaction user will receive a email regarding their order.
+                    It also supports admin functionality where admin can add new products.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="./assets/img/chat.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h4 class="indigo-text text-darken-4">
+                    <a href="https://ashischatapp.herokuapp.com/" target="_blank" class="indigo-text text-darken-4">Chat application</a>
+                </h4>
+                <p>This project is developed by node js with help of socket.io package.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
                 <img src="./assets/img/employeeManagement.jpg" alt="" class="responsive-img materialboxed">
             </div>
             <div class="col s12 l6 pull-l5 right-align offset-l1">
-                <h4 class="indigo-text text-darken-4">Employee Management</h4>
-                <p>This project is developed by using Html5, CSS3, Jquery, BootStrap3, Coldfusion as server side langauage and SQL Server as database.</p>
+                <h4 class="indigo-text text-darken-4">
+                    Employee Management
+                </h4>
+                <p>This project is developed by using Html5, CSS3, Jquery, BootStrap3, Coldfusion as server side langauage and SQL Server as database.
+                    Where admin can add/remove an employee and project.
+                    Admin can assign an employee with a project.
+                    Employee can apply for leave.
+                    admin can increment salary of an employee.
+                </p>
             </div>
         </div>
         <div class="row">
@@ -261,21 +305,11 @@
                 <p>This project is developed by using node js as server side langauage, hbs as template engine and mongodb Server as database.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col s12 l4">
-                <img src="./assets/img/chat.jpg" alt="" class="responsive-img materialboxed">
-            </div>
-            <div class="col s12 l6 offset-l1">
-                <h4 class="indigo-text text-darken-4">Chat application</h4>
-                <p>This project is developed by node js with help of socket.io package.
-                </p>
-            </div>
-        </div>
 		<div class="row">
-            <div class="col s12 l4 push-l7 offset-l1">
+            <div class="col s12 l4">
                 <img src="./assets/img/payment-gateway.jpg" alt="" class="responsive-img materialboxed">
             </div>
-            <div class="col s12 l6 pull-l5 right-align offset-l1">
+            <div class="col s12 l6 offset-l1">
                 <h4 class="indigo-text text-darken-4">Payment Gateway</h4>
                 <p>This project is developed by using node js as server side langauage, Vue Js as clien side framework and mongodb Server as database.
 				I added Razorpay for all type of payment, Stripe for card payment and paypal for wallet payment for the app. 
@@ -306,7 +340,7 @@
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="./assets/js/main.js"></script>
     <script>
         M.AutoInit();
